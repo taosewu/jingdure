@@ -37,7 +37,7 @@ var emails = [
 ];
 
 var urls=[
-	'720151.xyz',
+	'720152.xyz',
 ];
 
 var newestUrls = [];
@@ -146,4 +146,5 @@ window.onload = function () {
     // Description
     var noticeFieldElem = createFieldElem({title: '注意事项', items: notices, plainText: true, classStr: 'desc'});
     mainElem.appendChild(noticeFieldElem);
+
 }
